@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+#contact-btn{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	height: 200px;
+	background-color: rgb(255,255,255)
+	margin: 20px 0px;
+	box-sizing: border-box;
+	box-shadow:2px 0px 20px rgba(0,0,0,0.4); 
+}
+.c-b-heading{
+	font-size: 2rem;
+	color:#1E1E1E;
+	font-family: calibri;
+	margin: 10px;
+	padding: 5px;
+	letter-spacing: 4px;
+	border-bottom: 2px solid #1E1E1E;
+	
+}
+/* #contact-btn button{
+	color:#FFFFFF;
+	font-size: 1rem;
+	font-family: calibri;
+	width:150px;
+	height: 40px;
+	margin: 10px;
+	background-color: #1E1E1E;
+	border: none;
+	outline: none;
+	box-shadow: 2px 5px 6px rgba(0,0,0,0.2);
+}
+#contact-btn button:hover{
+	background-color: #17d1ac;
+	color:#000000;
+	transition: all ease 0.5s;
+	font-weight: bold;
+} */
+
+
+/* My  */
+
+
+.enguiry-form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	width:150px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(61,77,106);
+	color: whitesmoke;
+}
+.enquiry-form:hover{
+	/* background-color: #114fac; */
+	color: aliceblue;
+	transition: all ease 0.5s;
+    font-weight: bold;
+}
